@@ -27,7 +27,7 @@ calcularTempoEPreco(valorInserido) {
 }
     }
     //Criando Instância do Parquimetro
-    const parquimentro = new Parquimetro();
+    const parquimetro = new Parquimetro();
 
     // Capturando input do usuario
   document.getElementById("calcular").addEventListener("click", function(){
