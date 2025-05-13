@@ -1,0 +1,84 @@
+body{
+    background-color: blue; /*Fundo Vermelho*/
+    color: white;/*Todas as letras em branco*/
+    display: flex; /*Centralizar conteudo*/
+    justify-content: center; /*Centraiza Horizontalmente*/
+    align-items: center; /* Centraliza verticalmente*/
+    height: 100vh; /* Garante que o conteiner ocupe toda a altura da Tela*/
+    width: 200px;/* Define um tamanho menor para os campos*/
+    padding: 10px; /* Espaçamento interno*/
+    text-align: center; /* Centraliza o texto dentro do campo*/
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    font-size: 48px; /*Define um tamanho grande para o titulo*/
+    font-weight: bold; /*Deixa o Texto mais destacado*/
+    text-align: center; /*Centraliza o texto horizontalmente*/
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*Centraliza perfeitamente na tela*/
+}
+  input {
+    width: 300px; /* Aumenta a largura do campo de entrada */
+    height: 20px; /* Aumenta a altura */
+    font-size: 20px; /* Aumenta o tamanho do texto */
+    padding: 10px; /* Adiciona espaçamento interno */
+    text-align: center; /* Centraliza o texto dentro do campo */
+    gap: 50px;  
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+
+  button {
+    width: 200px; /* Define um tamanho maior para o botão */
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px; /* Adiciona um espaço entre o campo e o botão */
+    background-color: red; /*Altera a cor de fundo do botão*/
+    color: white; /*Define a cor do texto*/
+    padding: 10px 20px;/*Ajusta o tamanho do botão*/
+    border: none; /*Remove a borda*/
+    border-radius: 5px; /*Adiciona cantos arrendondados*/
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    }
+
+  img {
+    width: 250px; /* Define a largura */
+    border-radius: 20px;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    /*height: 20px; /* Aumenta a altura */
+   /* font-size: 20px; /* Aumenta o tamanho do texto */
+    /*padding: 10px; /* Adiciona espaçamento interno */
+    /*text-align: center; /* Centraliza o texto dentro do campo */
+    gap: 100px;  
+    position: absolute;
+    top:10%;
+    left: 43%;
+    /*transform: translate(-50%, -50%);*/
+}
+
+p{
+    width: 300px; /* Aumenta a largura do campo de entrada */
+    height: 20px; /* Aumenta a altura */
+    font-size: 25px; /* Aumenta o tamanho do texto */
+    padding: 10px; /* Adiciona espaçamento interno */
+    text-align: center; /* Centraliza o texto dentro do campo */
+    gap: 50px;  
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
